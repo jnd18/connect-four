@@ -1,0 +1,37 @@
+#main {
+    display: grid;
+    grid-template-columns: calc(7 * 100px + 6 * 20px);
+    grid-template-rows: 100px 720px;
+    margin: 20px;
+}
+
+#buttonGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    gap: 20px;
+}
+
+#gameGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    gap: 20px;
+    border: 2px solid black;
+    width: calc(7 * 100px + 6 * 20px);
+    background-color: #2eb2ff;
+}
+
+.gameButton {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: transparent;
+    border: none;
+}
+
+.slot {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: lightblue;
+}
+
